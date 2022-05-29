@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Details</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class="w3-content" style=" max-width:1450px">
+
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-gray w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64 ">
+      
+      <h1 >{{data[1]}} </h1>
+      <h3 > Unique Id : {{data[0]}} </h3>
+      <h3 >University : {{data[3]}} </h3>
+      <h3>Degree : {{data[4]}}  </h3>
+      <h3>Semester : {{data[5]}}</h3>
+      <h3>CGPA : {{data[6]}}</h3>
+        <div class="w3-padding-64">
+            <h1>Contact</h1>
+         <h3>Phone No. +91 {{data[2]}} </h3>
+          <h3>Email : {{data[11]}} </h3>
+          <h3>Address: {{data[10]}} </h3>
+
+        </form>
+     </div>
+    </div>
+  </div>
+
+
+        <!-- Third Grid: Swing By & Contact -->
+    <div class="w3-row" id="contact">
+       <div class="w3-half w3-cyan w3-container w3-center" style="height:700px">
+         <div class="w3-padding-64">
+           <h1>Details</h1>
+           <div class="w3-padding-64">
+          <form action={{data[7]}}>
+          <input type="submit" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16" value="Resume " />
+        </form>
+        <form action={{data[9]}}>
+          <input type="submit"  class="w3-button w3-black w3-block w3-hover-teal w3-padding-16" value="Github " />
+        </form>
+        <form action={{data[8]}}>
+          <input type="submit" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16" value="LinkedIn Profile " />
+        </form>
+       </div>
+       </div>
+       </div>
+       <div class="w3-half w3-teal w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Marksheet & Certifications</h1>
+      <div class="w3-padding-64">
+       <form action={{data[12]}}>
+          <input type="submit" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16" value="10th marksheet" />
+        </form>
+        <form action={{data[13]}}>
+          <input type="submit"  class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16" value="12th marksheet" />
+        </form>
+        <form action={{data[14]}}>
+          <input type="submit" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16" value="certificates " />
+        </form>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16">
+ <a href="http://localhost/myproject/scanFace.html">
+    <button class="button">Go Back</button> 
+    </a>
+
+</footer>
+</div>
+</body>
+</html>

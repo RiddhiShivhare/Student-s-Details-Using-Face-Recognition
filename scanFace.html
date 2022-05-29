@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.container {
+left: 500px;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  border:  double;
+  border-color: #000000;
+}
+
+ body{
+    
+    background-color: #D7C6F0;
+ }
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button {
+  border: none;
+  color: white;
+  width: 250px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: double;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.button1 {background-color: #008CBA;} /* Blue */
+.button2 {background-color: #F5B041 ;} /*Yellow */
+
+</style>
+</head>
+<body>
+
+
+
+
+<div class="container">
+  <div class="center">
+       <a href="Registration.html">
+          <button class="button button1">Register Student</button>
+       </a>
+       <button class="button button1" onclick="window.location.href='scan.php';">Scan Face to get Details</button>
+       <a href="http://localhost/phpmyadmin/index.php?route=/sql&db=mysql&table=attendance&pos=0">
+       <button class="button button1">Attendance</button>
+       </a>
+
+      <a href="login.html">
+          <button class="button button2"> Log out</button>
+      </a>
+
+  </div>
+
+</div>
+
+</body>
+</html>

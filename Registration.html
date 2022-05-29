@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link rel = "stylesheet"  type = "text/css" href = "Registrationstyle.css">
+</head>
+<body>
+ <form action="connect.php" method ="post" enctype="multipart/form-data">
+  <h1>Register</h1>
+  <input type="uniqueid" name="uniqueid" placeholder="Unique Id">
+   <input type="name" name="name" placeholder="Full Name">
+     <input type="email" name="email" placeholder="Email">
+     <input type="phone number" name="number" placeholder="Phone Number">
+     <input type="uname" name="uname" placeholder="University Name">
+     <input type="degree" name="degree" placeholder="Degree">
+     <input type="semester" name="semester" placeholder="Semester">
+     <input type="cgpa" name="cgpa" placeholder="Overall CGPA">
+     <input type="address" name="address" placeholder="Address">
+     <input type="resume" name="resume" placeholder="Resume Link">
+     <input type="LinkedIn" name="linkedin" placeholder="LinkedIn Profile">
+     <input type="github" name="github" placeholder="GitHub Link">
+  <input type="marksheet10" name="marksheet10" placeholder="10th Marksheet">
+  <input type="marksheet12" name="marksheet12" placeholder="12th Marksheet">
+     <input type="Certificate" name="certificate" placeholder="Certificate Link">
+    <br>Select image to upload:</br>
+ <em> <br>Name your image in this format "Uniqueid Name"</br></em>
+  <em> Example - "2016950 RIDDHI SHIVHARE.jpeg"</em>
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
